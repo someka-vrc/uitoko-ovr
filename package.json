@@ -1,0 +1,10 @@
+{
+  "name": "com.yourname.hellopackage",
+  "version": "1.0.0",
+  "displayName": "Hello Package",
+  "description": "プレイモードでHelloってつぶやくやつ",
+  "unity": "2022.3",
+  "author": {
+    "name": "キミ"
+  }
+}
