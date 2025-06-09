@@ -1,0 +1,11 @@
+{
+    "name": "com.someka.uitokoovr",
+    "author": {
+        "name": "someka_vrc",
+        "url": "https://github.com/someka-vrc/uitoko-ovr"},
+    "version": "0.1.0",
+    "displayName": "UITOKO OVR",
+    "description": "Overlay application template for OpenVR with UIToolkit-based GUI",
+    "unity": "2022.3",
+    "dependencies": {}
+}

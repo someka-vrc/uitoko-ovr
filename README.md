@@ -1,2 +1,2 @@
 # uitoko-ovr
-Overlay application template for OpenVR with UIToolkit-based GUI
+UI TOolKit-based Overlay application template for OpenVR

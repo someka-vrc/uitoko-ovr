@@ -1,0 +1,33 @@
+T:Microsoft.Extensions.Logging.LoggerExtensions;Don't use this, use ZLog*** instead.
+T:System.Console;Don't use this, use logger instead.
+
+M:UnityEngine.Component.SendMessage(System.String);重たい処理なので使用しないでください
+M:UnityEngine.Component.SendMessage(System.String,System.Object);重たい処理なので使用しないでください
+M:UnityEngine.Component.SendMessage(System.String,System.Object,UnityEngine.SendMessageOptions);重たい処理なので使用しないでください
+M:UnityEngine.Component.SendMessage(System.String,UnityEngine.SendMessageOptions);重たい処理なので使用しないでください
+M:UnityEngine.GameObject.SendMessage(System.String);重たい処理なので使用しないでください
+M:UnityEngine.GameObject.SendMessage(System.String,System.Object);重たい処理なので使用しないでください
+M:UnityEngine.GameObject.SendMessage(System.String,System.Object,UnityEngine.SendMessageOptions);重たい処理なので使用しないでください
+M:UnityEngine.GameObject.SendMessage(System.String,UnityEngine.SendMessageOptions);重たい処理なので使用しないでください
+M:UnityEngine.GameObject.Find(System.String);重たい処理なので使用しないでください
+M:UnityEngine.Object.FindObjectOfType``1();重たい処理なので使用しないでください
+M:UnityEngine.Object.FindObjectOfType``1(System.Boolean);重たい処理なので使用しないでください
+M:UnityEngine.Object.FindObjectOfType(System.Type);重たい処理なので使用しないでください
+M:UnityEngine.Object.FindObjectOfType(System.Type,System.Boolean);重たい処理なので使用しないでください
+M:UnityEngine.Object.FindObjectsOfType``1();重たい処理なので使用しないでください
+M:UnityEngine.Object.FindObjectsOfType``1(System.Boolean);重たい処理なので使用しないでください
+M:UnityEngine.Object.FindObjectsOfType(System.Type);重たい処理なので使用しないでください
+M:UnityEngine.Object.FindObjectsOfType(System.Type,System.Boolean);重たい処理なので使用しないでください
+
+M:UnityEngine.Debug.Log(System.Object);Don't use this, use ZLog*** instead.
+M:UnityEngine.Debug.Log(System.Object,UnityEngine.Object);Don't use this, use ZLog*** instead.
+M:UnityEngine.Debug.LogWarning(System.Object);Don't use this, use ZLog*** instead.
+M:UnityEngine.Debug.LogWarning(System.Object,UnityEngine.Object);Don't use this, use ZLog*** instead.
+M:UnityEngine.Debug.LogError(System.Object);Don't use this, use ZLog*** instead.
+M:UnityEngine.Debug.LogError(System.Object,UnityEngine.Object);Don't use this, use ZLog*** instead.
+M:UnityEngine.Debug.LogFormat(UnityEngine.Object,System.String,System.Object[]);Don't use this, use ZLog*** instead.
+M:UnityEngine.Debug.LogFormat(System.String,System.Object[]);Don't use this, use ZLog*** instead.
+M:UnityEngine.Debug.LogWarningFormat(UnityEngine.Object,System.String,System.Object[]);Don't use this, use ZLog*** instead.
+M:UnityEngine.Debug.LogWarningFormat(System.String,System.Object[]);Don't use this, use ZLog*** instead.
+M:UnityEngine.Debug.LogErrorFormat(UnityEngine.Object,System.String,System.Object[]);Don't use this, use ZLog*** instead.
+M:UnityEngine.Debug.LogErrorFormat(System.String,System.Object[]);Don't use this, use ZLog*** instead.

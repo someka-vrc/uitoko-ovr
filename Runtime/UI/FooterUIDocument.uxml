@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.someka.uitokoovr/Runtime/UI/BaseUss.uss?fileID=7433441132597879392&amp;guid=6f7e50d8e15a31a44a91f8542b566cb5&amp;type=3#BaseUss" />
+    <ui:VisualElement name="footerContainer" class="div" style="flex-grow: 1;">
+        <ui:VisualElement name="footer" class="footer">
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="dockingLeftButton" focusable="false" class="footer-button">
+                <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Packages/com.someka.uitokoovr/Runtime/UI/images/controller-left.png?fileID=2800000&amp;guid=3f5d877be4db9614894de28274b0a155&amp;type=3#controller-left&quot;);" />
+            </ui:Button>
+            <ui:VisualElement class="vertical-separator" />
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="dockingHeadButton" focusable="false" class="footer-button">
+                <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Packages/com.someka.uitokoovr/Runtime/UI/images/hmd.png?fileID=2800000&amp;guid=93bb036c983d86c43a3244b70a3306e3&amp;type=3#hmd&quot;);" />
+            </ui:Button>
+            <ui:VisualElement class="vertical-separator" />
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="dockingRightButton" focusable="false" class="footer-button">
+                <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Packages/com.someka.uitokoovr/Runtime/UI/images/controller-right.png?fileID=2800000&amp;guid=bf9f76db606acaa4d896cb8f5e2223be&amp;type=3#controller-right&quot;);" />
+            </ui:Button>
+            <ui:VisualElement class="vertical-separator" />
+            <ui:VisualElement name="grabButton" class="footer-button" style="justify-content: center;">
+                <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Packages/com.someka.uitokoovr/Runtime/UI/images/drag.png?fileID=2800000&amp;guid=32cd28a373b27374394674c2c12b8658&amp;type=3#drag&quot;);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

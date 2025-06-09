@@ -1,0 +1,39 @@
+#rootScrollView {
+    height: 100%;
+    background-color: rgb(16, 16, 16);
+    color: rgb(212, 212, 212);
+    font-size: 36px;
+}
+
+#mainPane {
+    flex-grow: 1;
+    margin-top: 10px;
+}
+
+.block {
+    margin-top: 0;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 0;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.block > VisualElement {
+    min-height: 30px;
+    padding-left: 20px;
+    margin-top: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+Button {
+    color: rgb(27, 27, 27);
+}
+
+.row {
+    flex-direction: row;
+    flex-wrap: wrap;
+}

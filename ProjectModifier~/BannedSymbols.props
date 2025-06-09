@@ -1,0 +1,9 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Analyzer Include="Assets/Packages/Microsoft.CodeAnalysis.BannedApiAnalyzers.4.14.0/analyzers/dotnet/cs/Microsoft.CodeAnalysis.BannedApiAnalyzers.dll" />
+    <Analyzer Include="Assets/Packages/Microsoft.CodeAnalysis.BannedApiAnalyzers.4.14.0/analyzers/dotnet/cs/Microsoft.CodeAnalysis.CSharp.BannedApiAnalyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <AdditionalFiles Include="$(ProjectDir)\BannedSymbols.txt" />
+  </ItemGroup>
+</Project>
